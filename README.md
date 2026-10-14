@@ -1,6 +1,6 @@
 # Guia dos Lençóis Maranhenses
 
-UNEMAT, Campus de Sinop
+UNEMAT - Campus de Sinop
 **Avaliação 01 de Introdução ao Desenvolvimento Web**.
 
 
