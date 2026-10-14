@@ -1,7 +1,7 @@
 # Guia dos Lençóis Maranhenses
 
 Site desenvolvido para a **Avaliação 01 de Introdução ao Desenvolvimento Web** (UNEMAT, Campus de Sinop).
-Nesta etapa o site usa apenas HTML5, sem CSS. A estilização será feita na Avaliação 02.
+
 
 ## Autora
 
