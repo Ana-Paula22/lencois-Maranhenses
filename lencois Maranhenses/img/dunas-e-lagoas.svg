@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <title>Ilustração de dunas brancas com lagoas azuis</title>
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7cc4ef"/>
+      <stop offset="1" stop-color="#d9f1fb"/>
+    </linearGradient>
+    <linearGradient id="lagoa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1fa3c4"/>
+      <stop offset="1" stop-color="#0d6f8f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#ceu)"/>
+  <circle cx="660" cy="90" r="42" fill="#fff4c2"/>
+  <path d="M0 250 C120 170 230 180 330 240 C420 190 540 160 650 230 C720 200 770 210 800 225 L800 450 L0 450 Z" fill="#f4efe4"/>
+  <path d="M0 300 C90 260 200 270 280 310 C380 280 500 270 600 315 C690 290 760 295 800 305 L800 450 L0 450 Z" fill="#ebe3d3"/>
+  <ellipse cx="250" cy="335" rx="150" ry="26" fill="url(#lagoa)"/>
+  <ellipse cx="590" cy="350" rx="120" ry="22" fill="url(#lagoa)"/>
+  <path d="M0 390 C150 360 300 370 420 395 C540 375 680 370 800 390 L800 450 L0 450 Z" fill="#f7f3ea"/>
+  <ellipse cx="420" cy="420" rx="90" ry="14" fill="url(#lagoa)"/>
+</svg>
