@@ -1,6 +1,7 @@
 # Guia dos Lençóis Maranhenses
 
-Site desenvolvido para a **Avaliação 01 de Introdução ao Desenvolvimento Web** (UNEMAT, Campus de Sinop).
+UNEMAT, Campus de Sinop
+**Avaliação 01 de Introdução ao Desenvolvimento Web**.
 
 
 ## Autora
