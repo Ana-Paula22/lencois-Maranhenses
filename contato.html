@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulário para planejar sua viagem aos Lençóis Maranhenses e receber uma sugestão de roteiro.">
+  <title>Contato | Guia dos Lençóis Maranhenses</title>
+</head>
+<body>
+  <header>
+    <p><a href="index.html">Guia dos Lençóis Maranhenses</a></p>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="atracoes.html">Atrações</a></li>
+        <li><a href="roteiros.html">Roteiros</a></li>
+        <li><a href="contato.html" aria-current="page">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Planeje sua viagem</h1>
+
+    <section>
+      <h2>Formulário de planejamento</h2>
+      <p>Preencha os campos abaixo. Os campos marcados com <strong>*</strong> são obrigatórios.</p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Seus dados</legend>
+          <p>
+            <label for="nome">Nome completo *</label>
+            <input type="text" id="nome" name="nome" required minlength="3" maxlength="80" autocomplete="name">
+          </p>
+          <p>
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </p>
+          <p>
+            <label for="telefone">Telefone com DDD</label>
+            <input type="tel" id="telefone" name="telefone" pattern="\(?[0-9]{2}\)? ?9?[0-9]{4}-?[0-9]{4}" placeholder="(66) 99999-9999" autocomplete="tel">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Sobre a viagem</legend>
+          <p>
+            <label for="chegada">Data de chegada *</label>
+            <input type="date" id="chegada" name="chegada" required min="2026-10-14">
+          </p>
+          <p>
+            <label for="pessoas">Número de pessoas *</label>
+            <input type="number" id="pessoas" name="pessoas" required min="1" max="20" value="2">
+          </p>
+          <p>
+            <label for="cidade">Cidade de hospedagem *</label>
+            <select id="cidade" name="cidade" required>
+              <option value="">Selecione uma cidade</option>
+              <option value="barreirinhas">Barreirinhas</option>
+              <option value="santo-amaro">Santo Amaro do Maranhão</option>
+              <option value="atins">Atins</option>
+            </select>
+          </p>
+          <p>
+            <label for="roteiro">Código do roteiro de interesse</label>
+            <input type="text" id="roteiro" name="roteiro" pattern="RT-0[1-5]" placeholder="RT-01" title="Use um código da página Roteiros, de RT-01 a RT-05.">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Ritmo de viagem preferido *</legend>
+          <p>
+            <input type="radio" id="ritmo-tranquilo" name="ritmo" value="tranquilo" required>
+            <label for="ritmo-tranquilo">Tranquilo</label>
+          </p>
+          <p>
+            <input type="radio" id="ritmo-moderado" name="ritmo" value="moderado">
+            <label for="ritmo-moderado">Moderado</label>
+          </p>
+          <p>
+            <input type="radio" id="ritmo-aventura" name="ritmo" value="aventura">
+            <label for="ritmo-aventura">Aventura</label>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Interesses</legend>
+          <p>
+            <input type="checkbox" id="int-lagoas" name="interesses" value="lagoas">
+            <label for="int-lagoas">Banho nas lagoas</label>
+          </p>
+          <p>
+            <input type="checkbox" id="int-barco" name="interesses" value="barco">
+            <label for="int-barco">Passeio de barco</label>
+          </p>
+          <p>
+            <input type="checkbox" id="int-trilha" name="interesses" value="trilha">
+            <label for="int-trilha">Caminhadas e travessias</label>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Detalhes finais</legend>
+          <p>
+            <label for="orcamento">Orçamento por pessoa (R$)</label>
+            <input type="range" id="orcamento" name="orcamento" min="500" max="5000" step="250" value="1500">
+          </p>
+          <p>
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="40" maxlength="500"></textarea>
+          </p>
+          <p>
+            <input type="checkbox" id="aceite" name="aceite" value="sim" required>
+            <label for="aceite">Concordo em ser contatado(a) sobre minha viagem *</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <button type="submit">Enviar pedido</button>
+          <button type="reset">Limpar</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Trabalho acadêmico: Avaliação 01 de Introdução ao Desenvolvimento Web, <abbr title="Universidade do Estado de Mato Grosso">UNEMAT</abbr>, Campus de Sinop.</p>
+    <p>Autora: Ana Paula Mesquita Mendonça.</p>
+    <p>Fonte oficial: <a href="https://www.gov.br/icmbio/pt-br" target="_blank" rel="noopener noreferrer">site do ICMBio (abre em nova aba)</a>.</p>
+  </footer>
+</body>
+</html>
